@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+.parallax
+{
+  background-image: url("images/R\ \(3\).jpg");
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 90px;
+}
+
+.parallax1
+{
+  background-image: url("images/R\ \(1\).jpg");
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.parallax2
+{
+  background-image: url("images/R.jpg");
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+	background-color: rgb(74, 74, 75);
+	color: #fff;
+  height: 90px;
+	padding: 20px;
+  z-index: 2;
+  
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 90px;
+}
+
+h2 {
+	color: #333;
+}
+
+
+
+
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
